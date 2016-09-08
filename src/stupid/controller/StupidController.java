@@ -7,7 +7,7 @@ public class StupidController
 	private String myName;
 	private Scanner inputReader;
 
-	public StupidController()
+	public StupidController()  //constructor
 	{
 		myName = "Kaden Martinsen";
 		inputReader = new Scanner(System.in);
@@ -24,6 +24,6 @@ public class StupidController
 	{
 		System.out.println("How is your day?");
 		String input = inputReader.nextLine();
-		System.out.println("Oh you said: " + input + "about your day");
+		System.out.println("Oh you said: " + input + " about your day");
 	}
 }
