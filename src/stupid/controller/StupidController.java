@@ -28,8 +28,10 @@ public class StupidController
 		
 		System.out.println("My next question is this: what type of food is the best?");
 		String foodInput = inputReader.nextLine();
-		System.out.println ("OK, you typed this: " + foodInput);
-		
+		if(!foodInput.equals(""));
+				{
+					System.out.println ("OK, you typed this: " + foodInput);
+				}
 		System.out.println("Why is that food the best?");
 		String whyFood = inputReader.nextLine();
 		System.out.println("you said " + whyFood);
