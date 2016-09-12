@@ -41,6 +41,11 @@ public class StupidController
 		System.out.println("What is your name?");
 		String nameInput = inputReader.next();
 		System.out.println("your name is " + nameInput);
+		inputReader.nextLine();
+		
+		System.out.println("what is a number with a decimal?");
+		float numberInput = inputReader.nextFloat();
+		System.out.println("you said " + numberInput);
 		
 		
 		
