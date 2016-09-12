@@ -38,6 +38,12 @@ public class StupidController
 		int ageInput = inputReader.nextInt();
 		System.out.println("oh wow you're " + ageInput + " year(s) old");
 		
+		System.out.println("What is your name?");
+		String nameInput = inputReader.next();
+		System.out.println("your name is " + nameInput);
+		
+		
+		
 	
 	}
 }
