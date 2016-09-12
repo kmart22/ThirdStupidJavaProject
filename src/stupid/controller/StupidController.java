@@ -27,16 +27,17 @@ public class StupidController
 		System.out.println("Oh you said: " + input + " about your day");
 		
 		System.out.println("My next question is this: what type of food is the best?");
-		String foodInput = inputReader.next();
+		String foodInput = inputReader.nextLine();
 		System.out.println ("OK, you typed this: " + foodInput);
 		
+		System.out.println("Why is that food the best?");
+		String whyFood = inputReader.nextLine();
+		System.out.println("you said " + whyFood);
 		
+		System.out.println("How old are you?");
+		int ageInput = inputReader.nextInt();
+		System.out.println("oh wow you're " + ageInput + " year(s) old");
 		
-		
-		
-		
-		
-		
-		
+	
 	}
 }
